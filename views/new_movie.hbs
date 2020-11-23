@@ -1,0 +1,17 @@
+{{#extends 'base'}}
+
+{{#block 'content'}}
+    <form method="POST">
+        <div>
+            <label class="form-label">Title: </label>
+            <input type="text" name="title" class="form-control"/>
+        </div>
+         <div>
+            <label class="form-label">Content: </label>
+            <input type="text" name="content" class="form-control"/>
+        </div>  
+        <input type="submit" class="btn btn-primary">
+    </form>
+{{/block}}
+
+{{/extends}}
